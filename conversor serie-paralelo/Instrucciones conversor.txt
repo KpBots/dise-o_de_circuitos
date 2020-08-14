@@ -1,0 +1,5 @@
+Conversor:
+	- Write activa/desactiva el circuito, mientras esté activo lee 1 bit en cada ciclo de reloj hasta llenar la memoria (4 bits).
+	- Una vez se ha llenado la memoria, el indicador de Ready se apaga y se ignora la llegada de nuevos bits.
+	- Estando Read a 1, si introducimos 11110000 en code, nos muestra en la salida Data si hay 4 bits en memoria (con 0001) o no (con 0000).
+	- Estando Read a 1, si introducimos 11110001 en code, nos muestra en la salida Data los 4 bits que había almacenados en memoria y en el siguiente ciclo activa el indicador de Ready.

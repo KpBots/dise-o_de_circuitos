@@ -1,0 +1,5 @@
+ALU:
+	-Se trata de una ALU de 4 bits, para su diseño he seguido el ejemplo de la incluída en los MIPS R2000.
+	-La entrada se realiza en los registros A - B de la parte superior.
+	-La selección de modo se hace con los bits X2 X1 y X0 de la parte superior izquierda.
+	-En la parte inferior están las distintas salidas (registro, zero y overflow).
